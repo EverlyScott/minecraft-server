@@ -1,4 +1,4 @@
-### Minecraft Server
+# Minecraft Server
 
 A Minecraft server built entirely in Node.JS
 
