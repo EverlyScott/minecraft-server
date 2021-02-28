@@ -1,0 +1,1 @@
+const{Command:Command}=require("commands"),server=require("server"),permissions=require("permissions");exports.stop=((s,e,r)=>{new permissions.Permission("mcjs.command.stop").hasPermission(e.username)?server.stop():permissions.defaultError(e._client)}),exports.init=(()=>{new Command({command:"stop",filename:"stop.mcjsp",info:"Stops the server",usage:"/stop"})});

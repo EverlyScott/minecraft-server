@@ -1,0 +1,45 @@
+{
+  "users": {
+    "arr": [
+      "Scribble_Nerd",
+      "Console"
+    ],
+    "Scribble_Nerd": {
+      "isOp": true,
+      "permissions": [],
+      "groups": [
+        "admin"
+      ]
+    },
+    "Console": {
+      "isOp": true,
+      "permissions": [],
+      "groups": []
+    }
+  },
+  "groups": {
+    "default": {
+      "permissions": [
+        "mcjs.command.about",
+        "mcjs.command.me",
+        "mcjs.command.say",
+        "mcjs.command.ping",
+        "mcjs.command.tellraw",
+        "mcjs.command.help",
+        "mcjs.command.usage",
+        "mcjs.command.enderchest",
+        "mcjs.command.whoami",
+        "mcjs.command.tps"
+      ]
+    },
+    "admin": {
+      "members": [
+        "Scribble_Nerd"
+      ],
+      "permissions": [
+        "mcjs.command.gamemode",
+        "mcjs.command.weather"
+      ]
+    }
+  }
+}

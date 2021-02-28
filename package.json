@@ -1,0 +1,29 @@
+{
+  "name": "minecraft-server-2",
+  "version": "2.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "app-module-path-node": "^0.1.0",
+    "colors": "^1.4.0",
+    "mca-js": "^0.1.1",
+    "minecraft-data": "^2.75.0",
+    "minecraft-protocol": "^1.23.1",
+    "node-fetch": "^2.6.1",
+    "prismarine-chunk": "^1.22.0",
+    "prismarine-nbt": "^1.4.0",
+    "semver": "^7.3.4",
+    "uglify-es": "^3.3.9",
+    "vec3": "^0.1.7"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "Scribble Nerd",
+    "email": "contact@scribblenerd.com",
+    "url": "https://www.scribblenerd.com"
+  },
+  "license": "ISC"
+}
