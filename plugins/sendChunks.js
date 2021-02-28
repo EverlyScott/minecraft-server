@@ -4,6 +4,7 @@ exports.init = () => {
 
 exports.onJoin = (player) => {
   sendChunks(player)
+  //Send entire map in a loop until later versions when we can detect the player location and send chunks based on that
   setInterval(() => {
     sendChunks(player)
   }, 1000)
