@@ -3,3 +3,4 @@ src/config.js
 testworld/
 .vscode/
 lib/playerdata/*
+!lib/playerdata/README.md
