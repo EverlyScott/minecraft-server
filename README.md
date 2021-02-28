@@ -3,4 +3,4 @@
 A Minecraft server built entirely in Node.JS
 
 ## How to create a world file
-Please visit [/ScribbleNerd/minecraft-server-world-converter](minecraft-server-world-converter) to see how
+Please visit [/ScribbleNerd/minecraft-server-world-converter](https://github.com/ScribbleNerd/minecraft-server-world-converter) to see how
