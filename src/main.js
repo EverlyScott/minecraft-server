@@ -1,10 +1,17 @@
 //Add lib/ to module search path (search path is now ['node_modules/', 'lib/'])
 require('app-module-path-node').addPath('lib')
 //Then start loading other modules
+var config
+try {
+  config = require('./config')
+} catch {
+  require('api').log('error', 'Please create a config.js file!')
+  process.exit()
+}
 const { Server } = require('./server')
 const update = require('./update')
-const config = require('./config')
 const pluginBuilder = require('plugin-builder')
+
 
 if (process.argv.includes('--build-plugins')) {
   if (process.argv.includes('--rebuild')) {
