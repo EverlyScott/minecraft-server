@@ -12,7 +12,6 @@ const { Server } = require('./server')
 const update = require('./update')
 const pluginBuilder = require('plugin-builder')
 
-
 if (process.argv.includes('--build-plugins')) {
   if (process.argv.includes('--rebuild')) {
     pluginBuilder(false, true)
