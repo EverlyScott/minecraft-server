@@ -2,6 +2,7 @@ const { Command } = require('commands')
 const permissions = require('permissions')
 
 function command(args, player, packet) {
+  player.updatePlayerData()
   var x = args[0]
   var y = args[1]
   var z = args[2]

@@ -10,6 +10,7 @@ Please visit [/ScribbleNerd/minecraft-server-world-converter](https://github.com
 - [x] Chat
 - [x] Commands
 - [x] World loading
+- [x] Keeping track of the player's current position in a world
 - [ ] Loading full worlds instead of just a few chunks
 - [ ] Saving world edits
 - [ ] Multiplayer worlds

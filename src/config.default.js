@@ -13,7 +13,7 @@ module.exports = {
   //customPackets: '', //Honestly not sure what this does because the github description is confusing: An object index by version/state/direction/name, see client_custom_packet for an example
   //errorHandler: (client, error) => {}, //A way to override the default error handler for client errors. A function that takes a Client and an error. The default kicks the client (Function)
   //agent: null, //An HTTP agent that can be used to set proxy settings for yggdrasil authentication (https://authserver.mojang.com) confirmation (see proxy-agent on npm) (default: null)
-  debug: false, //Enabled debug logging (Boolean, default: false)
+  debug: false, //Enables extended logging and also logs all packets to and from the server. Can also be enabled with the --debug flag (Boolean, default: false)
   useUnbuiltPlugins: false, //Uses the unbuilt versions of plugins. Helpful for debugging crashes (Boolean, default: false)
   checkforupdates: true, //Whether the server checks our remote server for any updates on startup. (Boolean, default: true)
   coloredOps: { //This changes whether opped players have a different colored name in chat and commands
