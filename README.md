@@ -12,6 +12,8 @@ Please visit [/ScribbleNerd/minecraft-server-world-converter](https://github.com
 - [x] World loading
 - [ ] Saving world edits
 - [ ] Multiplayer worlds
+- [ ] Entities
+- [ ] Entitiy AI
 
 ## Other
 A better readme will be coming later in development
