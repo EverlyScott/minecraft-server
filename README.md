@@ -10,6 +10,7 @@ Please visit [/ScribbleNerd/minecraft-server-world-converter](https://github.com
 - [x] Chat
 - [x] Commands
 - [x] World loading
+- [ ] Loading full worlds instead of just a few chunks
 - [ ] Saving world edits
 - [ ] Multiplayer worlds
 - [ ] Entities
